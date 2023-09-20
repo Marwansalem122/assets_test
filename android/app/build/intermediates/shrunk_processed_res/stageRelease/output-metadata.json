@@ -1,0 +1,111 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "SHRUNK_PROCESSED_RES",
+    "kind": "Directory"
+  },
+  "applicationId": "com.example.assets_test",
+  "variantName": "stageRelease",
+  "elements": [
+    {
+      "type": "UNIVERSAL",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 1,
+      "versionName": "1.0.0--stage",
+      "outputFile": "resources-stage-universal-release-stripped.ap_"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "mips"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 1,
+      "versionName": "1.0.0--stage",
+      "outputFile": "resources-stage-mips-release-stripped.ap_"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "mips64"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 1,
+      "versionName": "1.0.0--stage",
+      "outputFile": "resources-stage-mips64-release-stripped.ap_"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "x86_64"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 1,
+      "versionName": "1.0.0--stage",
+      "outputFile": "resources-stage-x86_64-release-stripped.ap_"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "armeabi"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 1,
+      "versionName": "1.0.0--stage",
+      "outputFile": "resources-stage-armeabi-release-stripped.ap_"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "x86"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 1,
+      "versionName": "1.0.0--stage",
+      "outputFile": "resources-stage-x86-release-stripped.ap_"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "armeabi-v7a"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 1,
+      "versionName": "1.0.0--stage",
+      "outputFile": "resources-stage-armeabi-v7a-release-stripped.ap_"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "arm64-v8a"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 1,
+      "versionName": "1.0.0--stage",
+      "outputFile": "resources-stage-arm64-v8a-release-stripped.ap_"
+    }
+  ],
+  "elementType": "File"
+}

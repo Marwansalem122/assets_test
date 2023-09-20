@@ -1,0 +1,4 @@
+#Thu Sep 21 00:38:06 EET 2023
+base.0=D\:\\assets_test\\android\\app\\build\\intermediates\\dex\\prodRelease\\minifyProdReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
